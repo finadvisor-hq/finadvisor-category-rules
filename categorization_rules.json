@@ -1,0 +1,398 @@
+{
+  "version": "2026.06.22b",
+  "schema_version": 2,
+  "updated_at": "2026-06-22T00:00:00Z",
+  "notes": "Merchant keyword-to-category mapping for FinAdvisor. Each entry has 'match' (lowercase substring to search for in transaction text) and 'name' (clean display name shown in Monthly Budget / Fixed Obligations, regardless of how noisy the raw bank/PDF text is). Edit this file and push to update categorization and bill naming for all users without a code release.",
+  "primary_bills": {
+    "Mortgage": [
+      {
+        "match": "georgia housing",
+        "name": "Georgia Housing Mortgage"
+      },
+      {
+        "match": "mortgage",
+        "name": "Mortgage"
+      },
+      {
+        "match": "mtg pmts",
+        "name": "Mortgage"
+      }
+    ],
+    "Auto Loan": [
+      {
+        "match": "cinch",
+        "name": "Cinch Auto Loan"
+      },
+      {
+        "match": "culs",
+        "name": "Auto Loan"
+      },
+      {
+        "match": "auto finance",
+        "name": "Auto Loan"
+      }
+    ],
+    "Credit Cards": [
+      {
+        "match": "amex epayment",
+        "name": "American Express"
+      },
+      {
+        "match": "american express credit",
+        "name": "American Express"
+      },
+      {
+        "match": "capital one online",
+        "name": "Capital One"
+      },
+      {
+        "match": "capital one credit",
+        "name": "Capital One"
+      },
+      {
+        "match": "best buy payment",
+        "name": "Best Buy Card"
+      }
+    ],
+    "Insurance": [
+      {
+        "match": "state farm",
+        "name": "State Farm Insurance"
+      },
+      {
+        "match": "primerica",
+        "name": "Primerica Life Insurance"
+      },
+      {
+        "match": "geico",
+        "name": "Geico Insurance"
+      },
+      {
+        "match": "allstate",
+        "name": "Allstate Insurance"
+      },
+      {
+        "match": "progressive",
+        "name": "Progressive Insurance"
+      },
+      {
+        "match": "nationwide",
+        "name": "Nationwide Insurance"
+      },
+      {
+        "match": "usaa",
+        "name": "USAA Insurance"
+      }
+    ],
+    "Phone": [
+      {
+        "match": "t-mobile",
+        "name": "T-Mobile"
+      },
+      {
+        "match": "at&t",
+        "name": "AT&T"
+      },
+      {
+        "match": "verizon",
+        "name": "Verizon"
+      },
+      {
+        "match": "sprint",
+        "name": "Sprint"
+      },
+      {
+        "match": "boost",
+        "name": "Boost Mobile"
+      },
+      {
+        "match": "att payment",
+        "name": "AT&T"
+      }
+    ],
+    "Internet": [
+      {
+        "match": "comcast",
+        "name": "Comcast"
+      },
+      {
+        "match": "xfinity",
+        "name": "Xfinity"
+      },
+      {
+        "match": "spectrum",
+        "name": "Spectrum"
+      },
+      {
+        "match": "att internet",
+        "name": "AT&T Internet"
+      }
+    ],
+    "Utilities": [
+      {
+        "match": "georgia power",
+        "name": "Georgia Power"
+      },
+      {
+        "match": "gas south",
+        "name": "Gas South"
+      },
+      {
+        "match": "atlanta gas",
+        "name": "Atlanta Gas Light"
+      },
+      {
+        "match": "vivint",
+        "name": "Vivint Home Security"
+      },
+      {
+        "match": "city of",
+        "name": "City Utilities"
+      }
+    ],
+    "Subscriptions": [
+      {
+        "match": "spotify",
+        "name": "Spotify"
+      },
+      {
+        "match": "netflix",
+        "name": "Netflix"
+      },
+      {
+        "match": "hulu",
+        "name": "Hulu"
+      },
+      {
+        "match": "disney",
+        "name": "Disney+"
+      },
+      {
+        "match": "amazon prime",
+        "name": "Amazon Prime"
+      },
+      {
+        "match": "youtube",
+        "name": "YouTube Premium"
+      },
+      {
+        "match": "siriusxm",
+        "name": "SiriusXM"
+      },
+      {
+        "match": "crunchyroll",
+        "name": "Crunchyroll"
+      },
+      {
+        "match": "playstation",
+        "name": "PlayStation"
+      },
+      {
+        "match": "apple",
+        "name": "Apple Subscription"
+      },
+      {
+        "match": "google *",
+        "name": "Google Subscription"
+      },
+      {
+        "match": "kingshot",
+        "name": "Kingshot"
+      }
+    ],
+    "Health": [
+      {
+        "match": "planet fitness",
+        "name": "Planet Fitness"
+      },
+      {
+        "match": "gym",
+        "name": "Gym Membership"
+      },
+      {
+        "match": "instamed",
+        "name": "Instamed Medical"
+      },
+      {
+        "match": "choa",
+        "name": "CHOA Medical"
+      },
+      {
+        "match": "dentistry",
+        "name": "Dentist"
+      },
+      {
+        "match": "patientco",
+        "name": "Patientco Medical Billing"
+      }
+    ],
+    "Taxes": [
+      {
+        "match": "irs",
+        "name": "IRS Tax Payment"
+      },
+      {
+        "match": "usataxpymt",
+        "name": "IRS Tax Payment"
+      }
+    ],
+    "Pest Control": [
+      {
+        "match": "aptive",
+        "name": "Aptive Pest Control"
+      }
+    ],
+    "Groceries": []
+  },
+  "secondary_categories": {
+    "Income": [
+      "payroll",
+      "zelle credit",
+      "zelle received",
+      "zelle from",
+      "direct dep",
+      "deposit",
+      "tax refund",
+      "irs treas"
+    ],
+    "Transfer": [
+      "eb to",
+      "eb from",
+      "transfer",
+      "cash app",
+      "venmo",
+      "apple cash",
+      "google pay"
+    ],
+    "Auto Service": [
+      "eoc03124",
+      "eoc",
+      "express oil",
+      "autozone",
+      "auto zone",
+      "jiffy lube",
+      "oil change",
+      "firestone",
+      "pep boys",
+      "midas",
+      "napa auto",
+      "advance auto",
+      "o'reilly"
+    ],
+    "Dining": [
+      "mcdonald",
+      "chick-fil-a",
+      "wendy",
+      "burger",
+      "pizza",
+      "restaurant",
+      "little caesar",
+      "culver",
+      "steak",
+      "zaxby",
+      "smoothie king",
+      "auntie anne",
+      "truett",
+      "pita street",
+      "stevi b",
+      "urban grind",
+      "waffle house",
+      "ihop",
+      "denny",
+      "applebee",
+      "olive garden",
+      "panera",
+      "subway",
+      "taco bell",
+      "popeyes",
+      "raising cane",
+      "five guys",
+      "chipotle",
+      "wingstop",
+      "cookout"
+    ],
+    "Groceries": [
+      "kroger",
+      "publix",
+      "walmart",
+      "food depot",
+      "sam's club",
+      "samsclub",
+      "sams club",
+      "costco",
+      "aldi",
+      "wayfield",
+      "wm supercenter",
+      "wal-mart",
+      "food lion",
+      "sprouts",
+      "whole foods",
+      "trader joe",
+      "piggly wiggly",
+      "dollar general",
+      "family dollar",
+      "dollar tree"
+    ],
+    "Gas": [
+      "shell",
+      "quiktrip",
+      "qt ",
+      "chevron",
+      "circle k",
+      "exxon",
+      "texaco",
+      "bp ",
+      "sunoco",
+      "marathon",
+      "murphy",
+      "pilot",
+      "flying j",
+      "loves travel"
+    ],
+    "Entertainment": [
+      "cinemark",
+      "amc ",
+      "regal cinema",
+      "movie",
+      "cinema",
+      "lucky strike",
+      "bowling",
+      "topgolf",
+      "dave & buster",
+      "dave and buster",
+      "main event",
+      "putt-putt",
+      "ticketmaster",
+      "eventbrite",
+      "stubhub",
+      "fandango",
+      "365 market",
+      "365 retail"
+    ],
+    "Shopping": [
+      "paypal",
+      "amazon",
+      "lowe",
+      "cvs",
+      "walgreen",
+      "cabela",
+      "best buy",
+      "home depot",
+      "ikea",
+      "consumer reports",
+      "chewy",
+      "etsy"
+    ],
+    "ATM": [
+      "atm withdrawal",
+      "cash withdrawal"
+    ],
+    "Laundry & Dry Cleaning": [
+      "zipp cleaner",
+      "dry clean",
+      "laundromat",
+      "laundry",
+      "cleaners"
+    ]
+  }
+}
