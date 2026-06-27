@@ -1,5 +1,5 @@
 {
-  "version": "2026.06.26f",
+  "version": "2026.06.26i",
   "schema_version": 2,
   "updated_at": "2026-06-26T00:00:00Z",
   "notes": "Merchant keyword-to-category mapping for FinAdvisor. Each entry has 'match' (lowercase substring to search for in transaction text) and 'name' (clean display name shown in Monthly Budget / Fixed Obligations, regardless of how noisy the raw bank/PDF text is). Edit this file and push to update categorization and bill naming for all users without a code release.",
@@ -246,29 +246,35 @@
   },
   "secondary_categories": {
     "Income": [
-      "ga refund",
-      "irs treas",
-      "state refund",
-      "zelle from",
-      "turbotax",
-      "direct dep",
-      "zelle received",
       "tax refund",
+      "deposit",
+      "direct dep",
+      "zelle from",
+      "zelle received",
+      "turbotax",
+      "irs treas",
       "zelle credit",
+      "ga refund",
       "payroll",
-      "deposit"
+      "state refund"
     ],
     "Transfer": [
-      "venmo",
-      "cashback",
+      "check#",
       "cash app",
-      "regions offers",
-      "transfer",
-      "eb from",
-      "cash back",
+      "apple cash",
       "google pay",
+      "zelle sent",
+      "zelle payment",
+      "regions offers",
+      "venmo",
+      "cash back",
       "eb to",
-      "apple cash"
+      "transfer",
+      "cashback",
+      "check #",
+      "personal check",
+      "zelle to",
+      "eb from"
     ],
     "Auto Service": [
       "eoc03124",
@@ -363,20 +369,21 @@
       "dollar tree"
     ],
     "Gas": [
-      "shell",
-      "quiktrip",
-      "qt ",
-      "chevron",
-      "circle k",
-      "exxon",
-      "texaco",
-      "bp ",
+      "union city i",
       "sunoco",
       "marathon",
-      "murphy",
+      "loves travel",
+      "quiktrip",
+      "circle k",
       "pilot",
+      "murphy",
+      "bp ",
       "flying j",
-      "loves travel"
+      "chevron",
+      "exxon",
+      "texaco",
+      "shell",
+      "qt "
     ],
     "Entertainment": [
       "lucky strike",
@@ -460,7 +467,6 @@
       "stat meter",
       "thecarpark",
       "sp plus",
-      "passport",
       "amtrak",
       "lyft"
     ],
@@ -493,15 +499,18 @@
       "clinic"
     ],
     "Subscriptions": [
-      "credit karma",
-      "claude.ai",
-      "anthropic",
       "lifelock",
-      "claude sub",
-      "myfico",
-      "identity guard",
+      "anthropic",
+      "youtubetv",
       "transunion",
-      "experian"
+      "youtube tv",
+      "claude sub",
+      "identity guard",
+      "claude.ai",
+      "google_y",
+      "experian",
+      "credit karma",
+      "myfico"
     ],
     "Alcohol & Spirits": [
       "total wine",
