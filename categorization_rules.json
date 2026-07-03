@@ -1,7 +1,7 @@
 {
-  "version": "2026.06.27a",
+  "version": "2026.07.02a",
   "schema_version": 2,
-  "updated_at": "2026-06-26T00:00:00Z",
+  "updated_at": "2026-07-02T00:00:00Z",
   "notes": "Merchant keyword-to-category mapping for FinAdvisor. Each entry has 'match' (lowercase substring to search for in transaction text) and 'name' (clean display name shown in Monthly Budget / Fixed Obligations, regardless of how noisy the raw bank/PDF text is). Edit this file and push to update categorization and bill naming for all users without a code release.",
   "primary_bills": {
     "Mortgage": [
@@ -82,6 +82,10 @@
       {
         "match": "usaa",
         "name": "USAA Insurance"
+      },
+      {
+        "match": "carshield",
+        "name": "CarShield"
       }
     ],
     "Phone": [
@@ -348,7 +352,16 @@
       "waffle house",
       "red lobster",
       "wendy",
-      "culver"
+      "culver",
+      "doordash",
+      "dairy queen",
+      "dunkin",
+      "kfc",
+      "hardee",
+      "arby",
+      "chuck e cheese",
+      "american deli",
+      "sonic drive"
     ],
     "Groceries": [
       "kroger",
@@ -370,7 +383,8 @@
       "piggly wiggly",
       "dollar general",
       "family dollar",
-      "dollar tree"
+      "dollar tree",
+      "dollartree"
     ],
     "Gas": [
       "union city i",
@@ -387,7 +401,9 @@
       "exxon",
       "texaco",
       "shell",
-      "qt "
+      "qt ",
+      "racetrac",
+      "raceway"
     ],
     "Entertainment": [
       "lucky strike",
@@ -435,7 +451,12 @@
       "boutique",
       "credit karma",
       "etsy",
-      "identity"
+      "identity",
+      "amzn",
+      "justfab",
+      "nike",
+      "old navy",
+      "bath and body"
     ],
     "ATM": [
       "atm withdrawal",
@@ -514,7 +535,11 @@
       "google_y",
       "experian",
       "credit karma",
-      "myfico"
+      "myfico",
+      "chatgpt",
+      "openai",
+      "zoom.us",
+      "hulu"
     ],
     "Alcohol & Spirits": [
       "total wine",
