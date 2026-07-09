@@ -1,7 +1,7 @@
 {
-    "version": "2026.07.02a",
+    "version": "2026.07.09a",
     "schema_version": 2,
-    "updated_at": "2026-07-08T17:43:32.161332Z",
+    "updated_at": "2026-07-09T03:27:20.873386+00:00",
     "notes": "Merchant keyword-to-category mapping for FinAdvisor. Each entry has 'match' (lowercase substring to search for in transaction text) and 'name' (clean display name shown in Monthly Budget / Fixed Obligations, regardless of how noisy the raw bank/PDF text is). Edit this file and push to update categorization and bill naming for all users without a code release.",
     "primary_bills": {
         "Mortgage": [
@@ -206,31 +206,31 @@
         "Phone & Internet": [
             {
                 "match": "t-mobile",
-                "name": "Phone & Internet"
+                "name": "T-Mobile"
             },
             {
                 "match": "at&t",
-                "name": "AT&T (Phone & Internet)"
+                "name": "AT&T"
             },
             {
                 "match": "verizon",
-                "name": "Phone & Internet"
+                "name": "Verizon"
             },
             {
                 "match": "sprint",
-                "name": "Phone & Internet"
+                "name": "Sprint"
             },
             {
                 "match": "boost",
-                "name": "Phone & Internet"
+                "name": "Boost Mobile"
             },
             {
                 "match": "att payment",
-                "name": "AT&T (Phone & Internet)"
+                "name": "AT&T"
             },
             {
                 "match": "at &t",
-                "name": "AT&T (Phone & Internet)"
+                "name": "AT&T"
             }
         ]
     },
